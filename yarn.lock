@@ -2715,7 +2715,12 @@
   resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.31.tgz#31b7ca6407128a3d2bbc27fe2d21b345397f6197"
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
-"@types/node@*", "@types/node@^18.0.0", "@types/node@^18.17.5":
+"@types/node@*":
+  version "20.8.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.2.tgz#d76fb80d87d0d8abfe334fc6d292e83e5524efc4"
+  integrity sha512-Vvycsc9FQdwhxE3y3DzeIxuEJbWGDsnrxvMADzTDF/lcdR9/K+AQIeAghTQsHtotg/q0j3WEOYS/jQgSdWue3w==
+
+"@types/node@^18.0.0", "@types/node@^18.17.5":
   version "18.18.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.3.tgz#e5188135fc2909b46530c798ef49be65083be3fd"
   integrity sha512-0OVfGupTl3NBFr8+iXpfZ8NR7jfFO+P1Q+IO/q0wbo02wYkP5gy36phojeYWpLQ6WAMjl+VfmqUk2YbUfp0irA==
@@ -5596,10 +5601,11 @@ etag@~1.8.1:
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
 eval@^0.1.0, eval@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/eval/-/eval-0.1.5.tgz#72a878737083edbd192bf6b0265689b86bdfa6aa"
-  integrity sha512-lI2uJc7qLCLUon2VQpl4ZQi5JvLkybD4fj1CII6Jszgte+fWRotYkFYj8v8urNkVvT1hsc638HLX8u5g3xlEzg==
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/eval/-/eval-0.1.8.tgz#2b903473b8cc1d1989b83a1e7923f883eb357f85"
+  integrity sha512-EzV94NYKoO09GLXGjXj9JIlXijVck4ONSr5wiCWDvhsvj5jxSrzTmRU/9C1DyB6uToszLs8aifA6NQ7lEQdvFw==
   dependencies:
+    "@types/node" "*"
     require-like ">= 0.1.1"
 
 eventemitter2@6.4.7:
@@ -11410,7 +11416,7 @@ require-from-string@^2.0.2:
 "require-like@>= 0.1.1":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/require-like/-/require-like-0.1.2.tgz#ad6f30c13becd797010c468afa775c0c0a6b47fa"
-  integrity sha1-rW8wwTvs15cBDEaK+ndcDAprR/o=
+  integrity sha512-oyrU88skkMtDdauHDuKVrgR+zuItqr6/c//FXzvmxRGMexSDc6hNvJInGW3LL46n+8b50RykrvwSUIIQH2LQ5A==
 
 requires-port@^1.0.0:
   version "1.0.0"
